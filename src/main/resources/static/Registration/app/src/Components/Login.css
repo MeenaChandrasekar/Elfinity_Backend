@@ -1,0 +1,31 @@
+
+/* login.css */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp4390828.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.auth-form-container {
+    background-color: transparent; /* Transparent background */
+    padding: 20px; /* Add padding to create space around the form */
+    border-radius: 8px; /* Add border radius for a rounded look */
+    max-height: 10%; /* Calculate max height considering padding */
+    overflow-y: hidden; /* Add vertical scroll if content exceeds max height */
+}
+
+
+
+/* Add any other styles as needed */

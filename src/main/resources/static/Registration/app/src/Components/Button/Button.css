@@ -1,0 +1,11 @@
+.button-container button {
+    margin-right: 20px; /* Adjust the value as needed for the desired spacing */
+  }
+
+  .custom-button {
+    margin-right: 20px; /* Adjust the value as needed for the desired spacing */
+    font-size: 20px; /* Adjust the font size as needed */
+    padding: 20px 30px; /* Adjust padding as needed */
+    /* Optional: Add more styles as needed */
+  }
+  

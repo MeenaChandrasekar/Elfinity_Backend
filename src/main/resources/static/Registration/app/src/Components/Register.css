@@ -1,0 +1,28 @@
+
+.auth-form-container {
+  background-color: transparent; /* Transparent background */
+  padding: 5px; /* Add padding to create space around the form */
+  border-radius: 8px; /* Add border radius for a rounded look */
+  max-height: 700px; /* Calculate max height considering padding */
+  overflow-y: auto; /* Add vertical scroll if content exceeds max height */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%; /* Ensure the form takes up the full height of the container */
+  overflow-y: hidden; /* Add vertical scroll if content exceeds max height */
+}
+
+
+.register-form input {
+  width: 90%; /* Set the width of input fields to 100% of their container */
+  height: 5px; /* Set the height of input fields */
+  padding: 12px; /* Add padding to input fields */
+  font-size: 16px; /* Set the font size of input fields */
+  margin-bottom: 20px;
+   /* Add margin bottom to create space between input fields */
+}
+
+
+/* Add any other styles as needed */
